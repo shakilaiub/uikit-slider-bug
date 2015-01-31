@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Slider Bug</title>
+        
+		<!--uikit core component-->
+		<link rel="stylesheet" href="css/uikit.min.css" />
+		
+		<script src="js/jquery.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+		
+		<!--uikit Add-ons component-->
+		<link rel="stylesheet" href="css/components/slideshow.min.css"/>
+		<script src="js/components/slideshow.min.js"></script>
+		
+		<link rel="stylesheet" href="css/components/slidenav.min.css"/>
+		
+		<script src="js/components/slideshow-fx.min.js"></script>
+		
+		<!--<link rel="stylesheet" href="css/components/sticky.min.css"/>
+		<script src="js/components/sticky.min.js"></script>-->
+		
+		
+		<link rel="stylesheet" href="css/components/dotnav.almost-flat.min.css"/>
+		
+		<link rel="stylesheet" href="css/components/flex.min.css"/>
+		<link rel="stylesheet" href="css/components/caption.min.css"/>
+		
+		<script src="js/components/accordion.min.js"></script>
+		
+		<!--custom css js-->
+		<link rel="stylesheet" href="css/custom-css/index.css" />
+		<link rel="stylesheet" href="css/custom-css/media.css" />
+		
+		<script src="js/jquery.equalheights.min.js"></script>
+		
+		
+		
+		
+		
+
+		<script>
+		
+		$(document).ready(
+		function()
+		{
+		var $window = $(window);		
+		
+		function checkWidth() {
+        var windowsize = $window.width();
+        if (windowsize < 768) {
+			$('#tm-oncanvas').hide();
+			
+			}
+			else{
+			
+			$('#tm-oncanvas').show();
+			}
+		}
+				
+		checkWidth();
+		$(window).resize(checkWidth);
+		
+		$('#package-holder .uk-panel-box').equalHeights();//for equal height.
+		
+		});
+		</script>
+
+		
+		
+	
+</head>
+<body>
+	<div id="wrap">
+	<div id="main" class="clearfix"> 
+	     
+
+	      		 
+
+<div class="uk-grid">
+     <div class="uk-width-1-1">
+	      <div  class="uk-slidenav-position" data-uk-slideshow="{animation: 'boxes', autoplay:true}">
+		         <ul class="uk-slideshow" data-uk-slideshow="{animation: 'boxes', autoplay:true}">
+				         <li style="animation-duration: 500ms;" data-uk-slideshow-item="0">
+						     <img src="img/placeholder_800x400_1.jpg"/>
+							 <div class="uk-caption uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							    <div id="h2-slid">								
+								<h2>
+							       Get Your Merchant Account Today
+							    </h2>
+								<!--a onclick="window.location.href='http://www.facebook.com'" class="uk-button uk-button-large slider-button">Sign up Now</a-->	
+                                <a href="http://www.facebook.com" class="uk-button uk-button-large slider-button">Sign up Now</a>																
+								</div>
+						     </div>
+							 
+							 
+						 </li>
+				         <li style="animation-duration: 500ms;" data-uk-slideshow-item="1">
+						     <img src="img/placeholder_800x400_2.jpg"/>
+							 <div class="uk-caption uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							    <div id="h2-slid">
+								<h2>
+							       Start Your Registration 
+							    </h2>
+								<!--a onclick="window.location.href='http://www.facebook.com'" class="uk-button uk-button-large slider-button">Sign up Now</a-->	
+                                <a href="http://facebook.com" class="uk-button uk-button-large slider-button">Sign up Now</a>	
+								</div>
+						     </div>
+							 
+						 </li>
+						 <li style="animation-duration: 500ms;" data-uk-slideshow-item="2">
+						     <img src="img/placeholder_800x400_3.jpg"/>
+							 <div class="uk-caption uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							    <div id="h2-slid">
+								<h2>
+							       Be Merchant of us
+							    </h2>
+								<!--a onclick="window.location.href='http://www.facebook.com'" class="uk-button uk-button-large slider-button">Sign up Now</a-->	
+                                <a href="http://facebook.com" class="uk-button uk-button-large slider-button">Sign up Now</a>	
+								</div>
+						     </div>
+							 
+						 </li>
+				 </ul>
+				 
+				 <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" ></a>
+				 <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" ></a>
+				 
+				 <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-text-center">
+						<li class="uk-active" data-uk-slideshow-item="0">
+							  <a href="#">Item 1</a>
+						</li>
+						<li class="" data-uk-slideshow-item="1">
+							  <a href="#">Item 2</a>
+						</li>
+						<li class="" data-uk-slideshow-item="2">
+							  <a href="#">Item 3</a>
+						</li>
+				</ul>
+		  </div>
+
+	  
+	 </div>
+</div>
+
+				 
+
+
+		 
+	</div><!--End of clearfix-->	
+    </div><!--End of wrap-->	
+	
+</body>
+</html>

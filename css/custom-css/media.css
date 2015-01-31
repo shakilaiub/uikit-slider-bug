@@ -1,0 +1,82 @@
+@media (max-width:320px){
+#logo img{width:120px;margin-left:25%;}
+.uk-float-right{margin-right:20%;}
+.uk-float-left{margin-left:-11%;margin-right:-8%;}
+.uk-float-left ul li{font-size:11px;}
+.uk-slidenav-position{margin-top:130px;}
+}
+@media (min-width:321px) and (max-width:360px){
+#logo img{width:120px;margin-left:25%;}
+.uk-float-right{margin-right:20%;}
+.uk-float-left{margin-left:-5%;margin-right:-5%;}
+.uk-float-left ul li{font-size:11px;}
+.uk-slidenav-position{margin-top:150px;}
+}
+@media (min-width:361px) and (max-width:479px){
+#logo img{width:120px;margin-left:30%;}
+.uk-float-right{margin-right:20%;}
+.uk-float-left{margin-left:-7%;margin-right:-10%;}
+.uk-float-left ul li{font-size:12px;}
+}
+@media (min-width:480px) and (max-width:559px){
+#logo img{width:120px;margin-left:30%;}
+.uk-float-right{margin-right:30%;}
+}
+@media (min-width:560px) and (max-width:767px){
+#logo img{width:122px;margin-left:37%;}
+.uk-float-right{margin-right:30%;}
+}
+@media (max-width:479px){
+.btn-account{font-size:15px;}
+.btn-account:hover{font-size:15px;}
+#services h1{font-size:20px;}
+#client h1{font-size:20px;}
+#client .uk-thumbnail img{width:150px;height:150px;}
+#client .uk-thumbnail{margin-left:25%;}
+#contact h1{font-size:20px;}
+#payment h1{font-size:20px;}
+#payment .uk-thumbnail{margin-left:25%;}
+#start h1{font-size:25px;}
+#terms-policy h1{font-size:20px;}
+#package h1{font-size:20px;}
+.merchant-button{font-size:15px;border-radius:20px;padding:15px;}
+#h2-slid h2{font-size:16px;}
+#terms-policy .uk-accordion-title{font-size:12px;}
+.uk-slidenav-position{margin-top:130px;}
+}
+@media (min-width:480px) and (max-width:767px){
+#services h1{font-size:25px;}
+#client h1{font-size:25px;}
+#contact h1{font-size:25px;}
+#payment h1{font-size:25px;}
+#start h1{font-size:35px;}
+#terms-policy h1{font-size:25px;}
+#package h1{font-size:25px;}
+#h2-slid h2{font-size:16px;}
+#terms-policy .uk-accordion-title{font-size:14px;}
+.uk-slidenav-position{margin-top:130px;}
+}
+@media (min-width:768px) and (max-width:959px){
+#logo img{width:140px;}
+.uk-navbar-flip{margin-top:0.3%;}
+.uk-navbar-flip ul li{padding-left:0px;padding-right:0px;}
+.uk-navbar-flip ul li a{font-size:12px;}
+#services h1{font-size:30px;}
+#client h1{font-size:30px;}
+#contact h1{font-size:30px;}
+#payment h1{font-size:30px;}
+#start h1{font-size:40px;}
+#terms-policy h1{font-size:30px;}
+#package h1{font-size:30px;}
+.uk-slidenav-position{margin-top:91px;}
+}
+@media (min-width:960px) and (max-width:1219px){
+#logo img{width:180px;}
+.uk-navbar-flip{margin-top:1%;}
+.uk-navbar-flip ul li{padding-left:0px;padding-right:0px;}
+.uk-navbar-flip ul li a{}
+.uk-slidenav-position{margin-top:104px;}
+}
+@media (min-width:1220px){
+.uk-slidenav-position{margin-top:110px;}
+}
